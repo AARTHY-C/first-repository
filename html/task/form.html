@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Details</title>
+    <style>
+        h1{
+           
+            text-align:center;
+        }
+        #submit{
+            text-align:center;
+            margin:auto;
+            display:flex;
+            
+            border:1px solid black;
+        }
+        #submit:hover{
+            background-color: blue;
+            color:white;
+        }
+        ::placeholder{
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form</h1>
+    <form>
+        <lable for="name">Name:</lable>
+        <input type="text" id="name" placeholder="name" ><br><br>
+        <lable for="email">Email:</lable>
+        <input type="text" id="email" placeholder="email"><br><br>
+        <lable for="phone">Phone no:</lable>
+        <input type="text" id="phone" placeholder="phone"><br><br>
+        <lable for="gender">Gender:</lable>
+        <input type="radio" name="gender" id="Male">
+        <lable for="male">Male</lable>
+        <input type="radio" name="gender" id="Female">
+        <lable for="Female">Female</lable><br><br>
+        <lable for="branch">Branch:</lable>
+        <input type="checkbox" id="cse">
+        <lable for="cse">CSE</lable>
+        <input type="checkbox" id="it">
+        <lable for="it">IT</lable>
+        <input type="checkbox" id="ec">
+        <lable for="ec">ECE</lable> <br><br>
+        <lable for="address">Address:</lable>
+        <textarea id="address" ></textarea><br><br>
+        <lable for="date">Date:</lable>
+        <input type="date" id="date"><br><br>
+        <input type="submit" id="submit">
+    </form>
+    
+</body>
+</html>

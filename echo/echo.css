@@ -1,0 +1,104 @@
+.btn1{
+    background-color: #081158;
+    color: orange;
+    border: none;
+    border-radius: 50px;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.rounded{
+    height: 500px;
+    padding: 40px;
+}
+.welcome{
+    color: #fbb346;
+   
+}
+.card1{
+    border: none;
+}
+span{
+    background-color: #fef0da;
+    border-radius: 50px;
+   padding-left: 9px;
+   padding-right: 9px; 
+   color: #fbb346;
+}
+.btn2{
+    background-color: #081158;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.btn2:hover{
+    color: #081158;
+    background-color: white;
+    border: 1px #081158 solid;
+}
+.btn3{
+    background-color:white ;
+    color: #081158;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px #081158  solid;
+}
+.btn3:hover{
+    color: white;
+    background-color:#081158;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle {
+    background-color: #efc57f;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+.obj{
+    display: flex;
+    align-items: center;
+}
+.card2{
+    margin-top: 100PX;
+    border: NONE;
+}
+
+.box2,.box1,.box3{
+    border: none;
+   
+}
+.card-list{
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+}
+i{
+    margin-right: 10px;
+}
+.card-list{
+    list-style-type: none;
+}
+.service{
+    color: #081158;
+}
+.ourservice{
+    margin-top: 100px;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: blueviolet    ;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task6</title>
+    <style> 
+        .logo{
+            height: 100px;
+            width: 15%;
+            background-color: blueviolet;
+        }
+        .header{
+            height: 100px;
+            width: 85%;
+            background-color: purple;
+        }
+        .flex1{
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+        .menu{
+            margin-top: 10px;
+            height: 100px;
+            width: 100%;
+            background-color: plum;
+        }
+        .article{
+            margin-top: 10px;
+            height: 300px;
+            width: 100%;
+            background-color:aquamarine;
+        }
+        .flex2{
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+            margin-top: 10px;
+        }
+        p{
+            width: 34%;
+        }
+        img{
+            width: 34%;
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            background-color: cadetblue;
+            margin-top: 10px;
+        }
+        @media only screen and (min-width:320px) and (max-width:480px){
+        .logo,.header{
+            width: 100%;
+         }
+         .flex1{
+            display: flex;
+            flex-direction: column;
+         }
+         p{
+            width: 100%;
+         }
+         img{
+            width: 100%;
+         }
+         .flex2{
+            display: flex;
+            flex-direction: column;
+         }
+        }
+        @media only screen and (min-width:481px) and (max-width:768px){
+        p{
+            width: 34%;
+        }
+        img{
+            width: 34%;
+            height: 200px;
+        }
+       
+        }
+    </style>
+</head>
+<body>
+    <div class="flex1">
+        <div class="logo"></div>
+        <div class="header"></div>
+    </div>
+    <div class="menu"></div>
+    <div class="article"></div>
+    <div class="flex2">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti incidunt quisquam reprehenderit, autem sunt tempore iusto ipsa architecto nihil commodi nulla, in magni eius vero est libero odit hic harum adipisci illo deserunt repellendus quibusdam! Esse aut quasi veniam dicta voluptatem. </p>
+        <img src="../advance css/picture/pho6.jpeg">
+        <img src="../advance css/picture/pho2.jpeg">
+    </div>
+    <footer></footer>
+</body>
+</html>

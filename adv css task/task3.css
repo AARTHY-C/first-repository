@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.seca{
+    background-color: black;
+    display: flex; 
+    height: 100px;  
+}
+.sec1a{
+    background-color:black;
+    text-align: end;
+    width: 33%;
+    height: 100px;
+}
+#logo{
+    background-color: black;
+    margin-top: 30px;
+    margin-right: 10px;  
+    color: white;
+}
+#logo:hover{
+    opacity:0.5;
+}
+.fa{
+    text-align: center;
+}
+.sec2a{
+    width: 45%;
+    height: 100px; 
+    display: flex;
+    justify-content: space-around;
+}
+.sec3a{
+    background-color: black;
+    width: 33%;
+    height: 100px;
+}
+h1{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}  
+#search{
+    padding: 5px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: 0px solid black;
+    margin-left: 50px;
+} 
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+#l1:hover{
+    color: white;
+}
+#l2:hover{
+    color: white;
+}
+#l3:hover{
+    color: white;
+}
+#l4:hover{
+    color: white;
+}
+#l5:hover{
+    color: white;
+}
+#l6:hover{
+    color: white;
+}
+.secb{
+    background-color: black;
+    display: flex; 
+    height: 100px;   
+}
+.sec1b{
+    background-color: black;
+    width: 20%;
+    height: 100px;
+}
+.sec2b{
+    background-color: black;
+    width: 55%;
+    height: 100px;
+}
+.sec3b{
+    background-color: black;
+    width: 20%;
+    height: 100px;
+}
+.secc{
+    background-color: black;
+    display: flex; 
+    height: 400px;   
+    width: 100%;
+}
+.sec1c{
+    background-color: black;
+    width: 15%;
+    height: 400px;
+}
+.sec2c{
+    background-color: black;
+    width: 80%;
+    height: 400px;
+    width: 70%;
+    display: flex;
+}
+.pic1{
+    position: relative;
+}
+.pic1a{
+    background-color: aqua;
+    width: 60%;
+    height: 100px;
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    
+}
+.txt1{
+    background-color: blue;
+    color: white;
+    height:20px;
+    width: 30%;
+}
+h4{
+    color: white;
+}
+#aside{
+    display: flex;
+    flex-direction: column;
+    height: 00px;
+    width: 40%;
+}
+.sec3c{
+    background-color: black;
+    width: 15%;
+    height: 400px;
+}
+.secd{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    height: 200px;
+}
+#slide1{
+    flex:1;
+    margin-left: 70px;
+}
+#slide2{
+    flex:1;
+    }
+#slide3{
+    flex:1; 
+}
+#slide4{
+    flex:1;
+    margin-right: 70px;
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+#cat{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+

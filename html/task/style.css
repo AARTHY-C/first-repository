@@ -1,0 +1,46 @@
+#container{
+    background-color: blue;
+    height:450px;
+}
+header{
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+}
+nav{
+    margin-top: 5px;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    height: 347px;
+}
+menu{
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    height: 320px;
+}
+#a{
+    display: flex;
+    flex-direction: row;
+}
+aside{ margin-left: 5px;
+    margin-top: 5px;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    width:50% ;
+    height: 320px;
+}
+footer{
+    
+    margin-top: -20px;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+   
+}

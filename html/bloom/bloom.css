@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: black;
+    padding: 20px;
+
+}
+logo{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: x-large;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+    }
+    a{
+        margin-top: -20px;
+    }
+#menu{
+    display: flex;
+    justify-content: end;
+    column-gap: 10px;
+}
+article{
+    
+    background-color: lightgray;
+    display: flex;
+    padding:20px;
+}
+button{
+    color: white;
+    background-color: orange;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+button:hover{
+    color: blue;
+}
+img{
+    height: auto;
+}
+aside{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-content: center;
+}
+#heading{
+    margin-left: 40px;
+}
+#a1{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#a2{
+    margin-right: 10px;
+}
+#a3{
+    margin-right: 40px;
+}
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;  
+}
+#line{
+    margin-left: 5px;    
+}
+#b1{
+    padding: 10px;
+    display: flex;  
+}
+#b2{
+   padding: 10px;
+    display: flex;
+}
+#b3{
+    padding: 10px;
+    margin-right: 20px;
+    display: flex;
+}
+#h1{
+    margin-left: 20px;
+    margin-top: 26px;
+}
+#div1{
+    margin-left: 10%;
+    width: 100%;
+    margin-right: 20px;
+    /* background-color: lightgray; */
+}
+#div2{
+    padding: 10px;
+    width: 100%;
+   margin-right: 20px;
+   /* background-color: lightgrey; */
+}
+#div3{
+    padding: 10px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 10%;
+    /* background-color: lightgrey; */
+}
+.fa{
+    padding: 5px;
+    font-size: 5px;
+    width: 60%;
+    text-align: center;
+    height: 15px;
+}
+.fa:hover{
+    opacity:0.3;
+}
+.fa-rss{
+    background-color: orange;
+    color: white;
+}
+.fa-twitter{
+    background-color: blue;
+    color: white;
+}
+.fa-facebook{
+    background-color: purple;
+    color: white;
+}
+.fa-google{
+    background-color: red;
+    color: white;
+}
+#l1{
+    align-content: center;
+    margin-top: 15px;
+    display: flex;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#l2{
+    display: flex;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#l3{
+    display: flex;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#l4{
+    display: flex;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#txt{
+    margin-left: 10px;
+    margin-top: px;
+}
+#sm3{
+    width: 25px;
+}
+#para{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+}

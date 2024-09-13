@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ex12</title>
+    <style>
+        .whole{
+            background-color: grey;
+        }
+        header{
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        menu{
+            display: flex;
+            column-gap: 30px;
+            color: white;
+            background-color: black;
+            padding: 20px;
+        }
+        footer{
+            margin-top: 10px;
+            padding: 10px;
+            background-color: grey;
+        }
+        article{
+            
+            background-color: white;
+        }
+        .side{
+            display: flex;
+            flex-direction: row;
+        }
+        aside{
+            padding:10px;
+            width: 300px;
+        }
+        #search{
+            display: flex;
+            justify-content: end;
+        }
+    </style>
+</head>
+<body>
+<div class="whole">
+    <header><h1>Header</h1></header>
+    <menu><a>HOME</a>
+        <a>OUR TEAM </a>
+        <a>PROJECT</a> 
+        <a>CONTACT</a>
+        <div id="search">
+        <input type="text" name="search" placeholder="search query">
+        <button>GO</button>
+    </div>
+    </menu>
+    <div class="side">
+    <article>
+        <h2 style="text-align: center;">Article Heading</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi rerum deserunt ducimus eum architecto aliquid, odit exercitationem pariatur ullam perferendis a ratione magni quibusdam optio beatae incidunt aut officia? Neque.</p>
+        <h3>Subsection</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas nostrum tenetur ab sapiente! Sequi, voluptatum. Repellat quis vitae quod in quisquam dolore hic impedit accusamus, porro ad incidunt, nobis illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni molestias facilis ullam ex asperiores fugiat, eligendi error animi modi officia vel esse dolorem deserunt reprehenderit libero officiis rerum id.</p>
+        <h3>Another subsection</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas nostrum tenetur ab sapiente! Sequi, voluptatum. Repellat quis vitae quod in quisquam dolore hic impedit accusamus, porro ad incidunt, nobis illo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni molestias facilis ullam ex asperiores fugiat, eligendi error animi modi officia vel esse dolorem deserunt reprehenderit libero officiis rerum id.</p>
+    </article>
+    <aside>
+        <h2>Related</h2><ul>
+            <li><a href="url">oh I do like to be beside the seaside</a><br></li>
+            <li><a href="url">oh I do like to be beside the sea</a><br></li>
+            <li><a href="url">Although in the north</a><br></li>
+            <li><a href="url">it never stop raining</a><br></li>
+            <li><a href="url">oh well</a></li>
+        </ul>
+    </aside>
+    </div>
+</div>
+    <footer>
+        &copy;Copyright 2050 by nobody.All right reversed.
+    </footer>
+</div>
+</body>
+</html>

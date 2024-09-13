@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .text{
+            /* background-color: blue; */
+            height: 100px;
+        }
+        /* p{
+            color: blue;
+        }
+        @media  only print {
+            p{
+            color: green;
+            }
+        }
+        @media  print and (orientation:landscape){
+            p{
+            color: red;
+            }
+        } */
+         .text{
+            background-color: red;
+            color: white;
+            height: 100px;
+         }
+         /* @media only screen and (min-width:320px){
+            .text{
+            background-color: violet;
+            
+         }
+         }
+         @media only screen and (max-width:480px){
+            .text{
+            background-color: green;
+            }
+         } */
+         @media only screen and (min-width:320px) and (max-width:480px){
+            .text{
+            background-color: violet;
+            }
+         }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <p>Aarthy C</p>
+    </div>
+</body>
+</html>

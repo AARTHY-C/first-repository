@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .tic1{
+            width: 50%;
+            height:250px;
+            display: flex;
+            border-radius: 30px;
+            overflow: hidden;
+            margin-top: 13%;
+            margin-left: 26%;   
+            box-shadow: 3px -3px grey inset;
+        }
+        .box1{
+            width: 70%;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            background-image: url("../advance css/picture/map.jpg");   
+            position: relative; 
+        }
+        .box2{
+            
+            width: 30%;
+            height: 250px;
+            position: relative; 
+            display: flex;
+        }
+        .sec2a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: #122463;
+            height: 57px;
+            width: 100%;
+            color: white;    
+        }
+        #a1{
+            margin-top: 25px;
+           font-size: 15px;
+        }
+        h2{
+            margin-top: 10px;
+        }
+        .sec1a{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #0aa3cf;
+            height: 200px;
+            width: 100%;
+            color: white;    
+        }
+        
+        h2{
+            margin-left: 80px;
+        }
+        p{
+            margin-left: 80px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .sec1b{
+            height: 210px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        #txt1a{
+            color: gray;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 5px;
+            font-size: 10px;
+        }
+        #cont1a{
+            color: gray;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 5px;
+        }
+        #cont2a{
+            font-size: 15px;
+        }
+        .sec2b{
+            margin-left: 10px;
+        }
+        .aside{
+           
+            width: 40%;
+            margin-top: -100px;
+            margin-left: 90px;
+        }
+        img{
+            margin-top: 70px;
+        }
+        .pos1{
+            background-color:aqua;
+        }
+        .cont1{
+            margin-left: 80px;
+        }
+        .cont4{
+            margin-right: 20px;
+        }
+        .cont5{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 70px;
+            font-size: 18px;
+            margin-left: 50px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        #space1{
+            margin-right: 10px;
+        }
+        #space2{
+            margin-left: 10px;
+        }
+        .sec1d{
+            position: relative;
+            top:-37px;
+            left: -184px;
+            transform: rotate(90deg);
+        }
+        .sec1e{
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin-top: -53px;
+            margin-left: 80px;
+            top:213px;
+            position: absolute;
+        }
+        .hole{
+            width: 40px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: absolute;
+            left:-5px;
+              }
+        .co1{
+            width: 100%;
+        }
+        .hole .circle1,
+        .hole .circle2,
+        .hole .circle3,
+        .hole .circle4,
+        .hole .circle5,
+        .hole .circle6,
+        .hole .circle7,
+        .hole .circle8,
+        .hole .circle9,
+        .hole .circle10,
+        .hole .circle11,
+        .hole .circle12{
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 3px 3px #d3d4d6 inset;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="tic1">
+        
+        <div class="box1"> 
+           
+            <div class="sec1a">
+                <h2>BOARDING PASS</h2>
+                <P>AIRLINE COMPANY</P>
+            </div>
+            <div class="sec1b">
+                <div class="cont1">
+                    <h5 id="cont1a">PASSENGER</h5>
+                    <h5 id="cont2a">JOHN DOE</h5>
+                </div>
+                <div class="cont2">
+                    <h5 id="cont1a">FLIGHT</h5>
+                    <h5 id="cont2a">AV 1A7</h5>
+                </div>
+                <div class="cont3">
+                    <h5 id="cont1a">DATE</h5>
+                    <h5 id="cont2a">27 JUN 2022</h5>
+                </div>
+                <div class="cont4">
+                    <h5 id="cont1a">SEAT</h5>
+                    <h5 id="cont2a">4B</h5> 
+                </div>
+            </div>
+            <div class="sec1c">
+                <div class="cont5">
+                    <h1 id="space1">LONDON</h1>
+                    <i id="flight" class="fa-solid fa-plane"></i>
+                    <h1 id="space2">TOKYO</h1>
+                </div>
+            </div>
+            <div class="sec1d">
+                <img src="../advance css/picture/bar1.png" height="100px" width="35%">    
+            </div>
+            <div class="sec1e">
+                <div class="cont6">
+                    <h5 id="cont1a">GATE</h5>
+                    <h5 id="cont2a">25 A</h5>
+                </div>
+                <div class="cont7">
+                    <h5 id="cont1a">BOARDING TIME</h5>
+                    <h5 id="cont2a">6:30AM</h5>   
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="box2">
+            <div class="hole">
+                <!-- .circle$*10 -->
+               <div class="circle1"></div>
+               <div class="circle2"></div>
+               <div class="circle3"></div>
+               <div class="circle4"></div>
+               <div class="circle5"></div>
+               <div class="circle6"></div>
+               <div class="circle7"></div>
+               <div class="circle8"></div>
+               <div class="circle9"></div>
+               <div class="circle10"></div>
+               <div class="circle11"></div>
+               <div class="circle12"></div>
+            </div> 
+            <div class="co1">
+            <div class="sec2a">
+                <h4 id="a1">LONDON</h4>
+                <i  id="a1" class="fa-solid fa-plane"></i>
+                <h4  id="a1">TOKYO</h4>
+            </div>
+            <div class="sec2b">
+                <h5 id="txt1a">PASSENGER</h5>
+                <h5 id="txt2a">JOHN DOE</h5>
+                <h5 id="txt1a">FLIGHT</h5>
+                <h5 id="txt2a">AV 1A7</h5>
+                <h5 id="txt1a">DATE</h5>
+                <h5 id="txt2a">27 JUN 2022</h5>
+                <h5 id="txt1a">GATE</h5>
+                <h5 id="txt2a">25 A</h5>
+                <div class="aside">
+                    <h5 id="txt1a">SEAT</h5>
+                    <h5 id="txt2a">4B</h5> 
+                </div >
+                <img src="../advance css/picture/barcode.jpeg" height="35px" width="80%">
+            </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

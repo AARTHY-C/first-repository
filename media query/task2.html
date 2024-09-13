@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex1{
+            display: flex;
+            justify-content: space-between;
+            gap:5px;
+            flex-wrap: wrap;
+        }
+        .box1{
+            height: 70px;
+            width: 49%;
+            background-color: aqua;
+        }
+        .box2{
+            width: 100%;
+            height: 300px;
+            background-color: cadetblue;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        .flex2{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .box3{
+            margin-top: 15px;
+            width: 33%;
+            height: 200px;
+            background-color: aqua;
+        }
+        .flex3{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .box4{
+            margin-top: 15px;
+            width: 24.5%;
+            height: 150px;
+            background-color: cadetblue;
+        }
+        .box5{
+            margin-top: 15px;
+            width: 24.5%;
+            height: 150px;
+            background-color: cadetblue;
+        }
+        @media only screen and (min-width:320px) and (max-width:480px){
+           .box1,.box3,.box5{
+            width: 100%;
+           }
+           .box4{
+            display: none;
+           } 
+        }
+        @media only screen and (min-width:481px) and (max-width:768px){
+            .box1,.box3{
+                width: 100%;
+        }
+            .box4,.box5{
+                width: 47%;
+            }
+    }
+    </style>
+</head>
+<body>
+    <div class="flex1">
+        <div class="box1"></div>
+        <div class="box1"></div>
+    </div>
+    <div class="box2"></div>
+    <div class="flex2">
+        <div class="box3"></div>
+        <div class="box3"></div>
+        <div class="box3"></div>
+    </div>
+    <div class="flex3">
+        <div class="box5"></div>
+        <div class="box4"></div>
+        <div class="box4"></div>
+        <div class="box4"></div>
+    </div>
+</body>
+</html>

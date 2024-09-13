@@ -1,0 +1,182 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    
+    background-color: black;
+}
+.main1{
+    height: 290px;
+    width: 55%;
+    background-image: linear-gradient(to right,red, orange, yellow, green, blue, indigo, violet) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    margin-left: 20%;
+    margin-top:10% ;
+}
+.main{
+    height: 270px;
+    width: 96%;
+    /* background-color: aqua; */
+    border-radius: 10%;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 1px;
+    background-color: black;
+}
+.circle1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:112px;
+    left:-39px;
+    background-color: black;
+    border: 7px solid #ff0900;
+}
+.circle2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top:112px;
+    right:-39px;
+    background-color: black;
+    border: 7px solid #e77ce9;
+}
+.flex1{
+    display: flex;
+    flex-direction: row;
+}
+.block1{
+    height: 270px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* background-color:blueviolet; */
+}
+.block2{
+    height: 270px;
+    width: 20%;
+    /* background-color:chartreuse; */
+    border-left: 3px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .profile{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    color: white;
+    background-image: url("../advance css/picture/profile.jpg");
+    background-size: cover;
+}
+
+.con1{
+    height: 80px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    /* background-color:aquamarine; */
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.con1a{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 60px;
+    color: white;
+}
+.con1b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px; 
+    /* background-color: aqua; */
+    width: 63%;
+} 
+.con2{
+    height: 150px;
+    width: 85%;
+    /* background-color: aqua; */
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.con2a{
+    margin-top: 30px;
+    height: 150px;
+    width: 35%;
+    /* background-color: green; */
+}
+.con2b{
+    margin-top: 39px;
+    margin-right: 100px;
+    height: 90px;
+    width: 20%;
+    margin-left: -20px;
+    /* background-color: red; */
+}
+.con2c{
+    margin-top: 30px;
+    height: 150px;
+    width: 60%;
+    /* background-color: yellow; */
+    color: white;
+    margin-left: -60px;
+    font-size: 20px;
+}
+.next{
+    margin-top: -60px;
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    margin-left: -10px;
+   
+}
+.no{
+    height:100px ;
+    width: 100%;
+    /* background-color: aqua; */
+    transform: rotate(90deg);
+    font-size: 40px;
+    margin-right: 60px;
+    color: white;
+    margin-top: -20px;
+}
+span{
+    text-decoration: underline;
+}
+.host{
+   color: white;
+   margin-top: -65px;
+   margin-left: 10px;
+   opacity: 0.7;
+}
+.versel{
+    margin-top:-58px ;
+    margin-left: -24px;
+    height: 100px;
+}
+.link{
+    margin-top: 10px;
+    opacity: 0.7;
+}
+.date{
+    font-size: 20px;
+}
+.cont{
+    margin-top: 20px;
+}
+.conf{
+    height: 70%;
+    width: 70%;
+    margin-left: 10px;
+}
