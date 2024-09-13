@@ -96,9 +96,53 @@ i{
 .ourservice{
     margin-top: 100px;
 }
-.box1{
-    background-color: aqua;
+.flex{
+    display: flex;
+    flex-direction: row;
 }
-.box2{
-    background-color: blueviolet    ;
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
 }
+.flex2{
+    display: flex;
+    flex-direction: row;  
+}
+.img1{
+    display: flex;
+    justify-content: flex-start;
+}
+.test{
+    margin-top: 100px;
+}
+
+.design{
+    text-align: center;  
+}
+.termonials{
+    background-color: #f8f9fa;
+}
+.footer{
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color:black
+}
+.space{
+    margin-top: 100px;
+}
+.bottom{
+    margin-top: 100px;
+    height: 200px;
+}
+.fa-solid.fa-heart{
+    color: red;
+}
+
